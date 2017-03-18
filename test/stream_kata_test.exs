@@ -19,7 +19,7 @@ defmodule StreamKataTest do
 
   #test "next_n_numbers/3 takes a start, a function, and a count, so we can count by twos, for example" do
     #assert next_n_numbers(5, 4, &next_number/1) == [5,6,7,8]
-    #assert next_n_numbers(5, 4, &next_number/1) == [5,6,7,8]
+    #assert next_n_numbers(5, 4, &next_by_twos/1) == [5,7,9,11]
   #end
 
   
