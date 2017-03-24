@@ -2,11 +2,11 @@ defmodule StreamKataTest do
   use ExUnit.Case
   doctest StreamKata
 
-  import Answers.StreamKata
-  alias Answers.StreamKata
+  #import Answers.StreamKata
+  #alias Answers.StreamKata
 
-  #import StreamKata
-  #alias StreamKata
+  import StreamKata
+  alias StreamKata
 
   #test "next_number takes a number and returns the next one" do
     #assert next_number(5) == 6
